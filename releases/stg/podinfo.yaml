@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: stefanprodan/podinfo:stg-jr8chull
+    image: jinkerjiang/podinfo:dev-f325lfsc
     replicaCount: 2
     hpa:
       enabled: true
