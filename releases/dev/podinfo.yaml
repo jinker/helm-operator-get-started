@@ -14,7 +14,7 @@ spec:
     path: charts/podinfo
     ref: master
   values:
-    image: jinkerjiang/podinfo:dev-f325lfsc
+    image: jinkerjiang/podinfo:dev-xe2oagny
     replicaCount: 1
     hpa:
       enabled: false
